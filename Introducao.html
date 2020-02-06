@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Introdução -  NoSQL</title>
+        <meta name="description" content="Este é um site referênte à estudos sobre NoSQL">
+    </head>
+    
+    <body>
+        <h1>Introdução - NoSQL</h1>
+        <p>Os bancos de dados NoSQL, também chamados de não estruturados/ não relacionais, são bancos que não possuem dados estruturados, ou seja, não trabalham com dados que possuem tabelas e linhas como identação. Os bancos NoSQL foram desenvolvidos para a manipulação de grandes quantidades de dados, estando muito em contexto e ligado ao Big Data, onde grandes massas de dados são gerados constantemente. Logo, os bancos não relacionais são bancos distribuídos que foram projetados para atender os requerimentos exigidos por situações como  o Big Data, oferecendo uma arquitetura onde a linguagem SQL não é cabível com suas condições.</p>
+        <p>Pela especulação de Big Data ser o novo futuro no ramo de TI, os bancos NoSQL estarão em grande massa no mercado, onde alguns ousam dizer até mesmo que pode substituir os bancos tradicionais relacionais. Portanto, estes bancos oferecem 4 categorias principais de bancos, sendo eles:</p>
+        <ol>
+            <li>Graph Databases</li>
+            <br>
+            <li>Document Databases</li>
+            <br>
+            <li>Key-Values Stores</li>
+            <br>
+            <li>Column Family Stores</li>
+            <br>
+        </ol>
+        <ul>
+            <li><strong>Graph Databases</strong></li>
+            <p>Esta categoria é geralmente aderente a cenários de rede social online, onde os <strong>nós</strong> representam e os <strong>laços</strong> representam as interconexões entre eles. Tendo sido usada para lidar com problemas relacionados a sistemas de recomendação e listas de contreole de acesso, fazendo uso de sua capacidade de lidar com dados altamente interligados.</p>
+            <li><strong>Document Databases</strong></li>
+            <p>Estes permitem o armazenamento de uma grande massa de documentos, através de associação de dados coletados. Um exemplo deles, é o MongoDb.</p>
+            <li><strong>Key-Value Store</strong></li>
+            <p>Neste caso, os dados são armazenados no formato chave-valor, onde os valores/dados são identificados por suas chaves. É possível armazenar inúmeros registros de forma eficiente e o processo de escrita é bem rápido, além de poder pesquisa-los através de chaves associadas.</p>
+            <li><strong>Column Family Store</strong></li>
+            <p>Onde os dados são orientados a colunase organizados em grupos dessas colunas. Tanto o armazenamento quanto as pesquisas de dados são baseados em chaves.</p>
+        </ul>
+        <p>Outras características dos dados NoSQL são: a representação de dados <strong>sem schema, tempo de desenvolvimento, velocidade e escalabilidade</strong></p>
+        <p>Para uma lista completa de bancos de dados NoSQL e em quais categorias eles se encontram, visite o site <a href="http://nosql-database.org">NoSQL-database.org</a>, mas também seguem uma explicação geral sobre os mais usados:</p>
+        <ul>
+            <li><strong>MongoDB</strong></li>
+            <p>Sendo um banco orientado a documento, onde substitui o conceito de linha por documentos em termos de armazenamento dos dados, sendo também open-source e possuindo características como: <strong>indexação</strong> (onde o Mongo suporta índices secundários, permitindo a construção de Querys velozes), <strong>Agregação</strong> (permitindo a construção de agregações complexas e dados, otimizando o desempenho), <strong>Tipos de dados especiais</strong> (Suporta coleções <i>time-to-live</i> para dados que expiram em um determinado tempo, como sessões e etc.), além de conceitos semelhantes aos bancos SQL:</p>
+            <table border=3 width='25%'>
+            <tr colspan="4" bgcolor="#0B4C5F">
+                <style>th{color:white}</style>
+            <th>MongoDB</th><th>Banco SQL</th>
+            </tr>
+            <td>Database</td><td>Database</td>
+            <tr>
+            <td>Collection</td><td>Table</td>
+            </tr>
+            <td>Document</td><td>Row</td>
+            <tr>
+            <td>Field</td><td>Column</td>
+            </tr>
+            <td>Embedded Document</td><td>Table Join</td>
+            <tr>
+            <td>Primary Key</td><td>Primary Key</td>
+            </tr>
+            </table>
+        </ul>
+    </body>
+</html>
